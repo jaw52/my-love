@@ -25,7 +25,7 @@ export const pageColor = {
 }
 
 export const homeConstant = {
-  dayOfLove: '2020-01-31', // 恋爱日期
+  dayOfLove: '2020-05-04', // 恋爱日期
 }
 
 export const OUR_TAGS = [

@@ -12,7 +12,7 @@ export function setupGdMap() {
   `
   document.head.appendChild(mapSecurity)
 
-  const promise = new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     const url = `https://webapi.amap.com/maps?v=2.0&key=${KEY}&plugin=Map3D,AMap.GeoJSON`
     const jsAPI = document.createElement('script')
     jsAPI.src = url
@@ -23,8 +23,6 @@ export function setupGdMap() {
         resolve('AMap is loaded')
     }
   })
-
-  return promise
 }
 
 /**

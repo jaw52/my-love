@@ -68,10 +68,6 @@ export function Two(
 
       <br />
 
-      <span className="inline">
-        從大一到如今，從相識到成家
-      </span>
-
       <span
         className="inline-block relative hover:!scale-130 cursor-pointer "
         style={{
